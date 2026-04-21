@@ -41,7 +41,7 @@ O objetivo deste projeto é consolidar conhecimentos em criptografia, assim como
 
 ---
 
-## Como executar
+## Como executar "cofre_aes.py"
 
 ```bash
 python cofre_aes.py cifrar arquivo.txt
