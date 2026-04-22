@@ -9,7 +9,7 @@ Projeto focado na implementação prática de conceitos fundamentais de criptogr
 Este repositório reúne implementações e experimentos relacionados à segurança de sistemas, incluindo:
 
 - Criptografia de arquivos
-- Uso de algoritmos modernos (como AES)
+- Uso de algoritmos como Base64, AES e SHA256
 - Derivação de chave segura (PBKDF2)
 - Manipulação segura de dados sensíveis
 
@@ -44,11 +44,11 @@ O objetivo deste projeto é consolidar conhecimentos em criptografia, assim como
 ## Como executar "cofre_aes.py"
 
 ```bash
-python cofre_aes.py cifrar arquivo.txt
+python cofre_aes.py cifrar texto
 ```
 
 ```bash
-python cofre_aes.py decifrar arquivo.txt
+python cofre_aes.py decifrar texto.cifrado
 ```
 
 ```bash
@@ -57,10 +57,10 @@ python cofre_aes.py testar
 ## Em Mac: 
 Somente adicionar um 3 no final de python, ex.:
 ```bash
-python3 cofre_aes.py cifrar arquivo.txt
+python3 cofre_aes.py cifrar texto
 ```
 ```bash
-python3 cofre_aes.py decifrar arquivo.txt
+python3 cofre_aes.py decifrar texto.cifrado
 ```
 
 ```bash
@@ -79,7 +79,7 @@ python3 cofre_aes.py testar
 
 ## Autora
 
-Michelle Bornes, estudante de Ciência da Computação
+Michelle Bornes
 
 ---
 
